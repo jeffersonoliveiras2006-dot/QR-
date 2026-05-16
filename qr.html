@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J&J Automotors</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0d0d0d;
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:420px;
+    background:rgba(15,15,15,0.95);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:28px;
+    padding:40px 25px;
+    text-align:center;
+    box-shadow:0 0 35px rgba(0,0,0,0.5);
+}
+
+.title h1{
+    color:#ff3c00;
+    font-size:46px;
+    font-weight:900;
+    letter-spacing:2px;
+}
+
+.title h2{
+    color:#fff;
+    font-size:20px;
+    margin-top:-5px;
+    letter-spacing:4px;
+}
+
+.description{
+    color:#cfcfcf;
+    margin-top:25px;
+    line-height:1.7;
+    font-size:15px;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    margin-top:35px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:16px;
+    border-radius:16px;
+    font-weight:700;
+    transition:.25s;
+    font-size:15px;
+}
+
+.whatsapp{
+    background:#25D366;
+    color:#fff;
+}
+
+.whatsapp:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 20px rgba(37,211,102,.5);
+}
+
+.instagram{
+    background:linear-gradient(45deg,#833AB4,#FD1D1D,#FCAF45);
+    color:#fff;
+}
+
+.instagram:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 20px rgba(255,80,80,.4);
+}
+
+.info{
+    margin-top:30px;
+    color:#bdbdbd;
+    font-size:14px;
+    line-height:2;
+}
+
+.footer{
+    margin-top:30px;
+    color:#666;
+    font-size:12px;
+}
+
+@media(max-width:480px){
+
+    .card{
+        padding:30px 20px;
+    }
+
+    .title h1{
+        font-size:38px;
+    }
+
+    .title h2{
+        font-size:17px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="title">
+        <h1>J&J</h1>
+        <h2>AUTOMOTORS</h2>
+    </div>
+
+    <div class="description">
+        Oficina especializada em motos.<br>
+        Serviços de qualidade e confiança.
+    </div>
+
+    <div class="buttons">
+
+        <a class="btn whatsapp"
+        href="https://wa.me/5583987100025"
+        target="_blank">
+        CHAMAR NO WHATSAPP
+        </a>
+
+        <a class="btn instagram"
+        href="https://instagram.com/JeJ_automotors"
+        target="_blank">
+        VER INSTAGRAM
+        </a>
+
+    </div>
+
+    <div class="info">
+        <p>📍 Oficina premium de motos</p>
+        <p>⚙️ Mecânica • Elétrica • Serviços no motor</p>
+    </div>
+
+    <div class="footer">
+        J&J Automotors © 2026
+    </div>
+
+</div>
+
+</body>
+</html>
